@@ -1,0 +1,33 @@
+	1. Mejorar la variable Precio por Metro Cuadrado
+		a. Mirar los trabajos de los otros, que hicieron con esta variable
+		b. Mirar por nuestra cuenta lo que fuimos haciendo y  el dataset y tratar de sacar una idea.
+		c. Cada vez que limpeamos corremos la matriz de correlaciones y vemos que da, si da mejor estamos en buen camino
+		d. Mirar con atencion la parte del calculo del precio en dolares, porque en mi opinion algo falla ahi (mirar de cuando es el tipo de cambio, tratar de reconstruir el precio si te mal, hacer un analisis de todas las filas y ver si todas tienen el mismo tipo de cambio, crear columna tipo de cambio)
+	2. Mirar la variable Precio
+		a. Arreglarla, darle una buena definicion (que no sea la que hizo Fer)
+		b. Nota, 1. y 2. van juntas.
+	3. Mejorar las variables regresoras (prioridad baja)
+		a. Ambientes
+			i. Mirar que hicieron los otrso
+			ii. Usar el datamining de Fernando (el otro) para poder levantar mejor la info de ambientes
+			iii. Mejorar el regex
+		b. Amenities
+			i. Usar el metodo del otro Fernando para rescatar las variables de amenites
+			ii. Decididir como las vamos a tratar, hacemos un conteo de amenitis o hacemos una dummie por amenity
+			iii. Decidir que cuenta como amenity
+		c. Barrios privados
+			i. Reconvertir la ultima categoria en una dummy que indique si es barrio privado o no
+		d. Propiedades en pozo
+			i. Tratar de usar regex para ver que esta en pozo
+	4. Mejorar la limpieza de datos
+		a. Relacionado a 1., borrar datos malos (ej precio = 123456789, descripcion = "rfadfafasfaewfaefsad"
+	5. Tirar los outliers
+	6. Crear un nuevo conjunto de datos con la transformacion polinomica de las variables para tirarla como regresor
+	7. Crear una segmentacion de los datos
+		a. Por provinica
+		b. Por tipo de propiedad
+		c. Mas a definir
+	8. Crear la matriz de correlacion
+		a. En lo posible armar un Heatmap, para mayores puntos y mejor visualizacion
+		b. Definir que variables estan correlacionadas entre si de las regresoras, quitarlas
+Ver cuales correlacionan demasiado con el precio por metro cuadrado
