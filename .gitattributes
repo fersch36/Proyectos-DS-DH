@@ -2,3 +2,5 @@
 * text=auto
 *.csv filter=lfs diff=lfs merge=lfs -text
 properatti.csv filter=lfs diff=lfs merge=lfs -text
+Discretization-Criteria.csv filter=lfs diff=lfs merge=lfs -text
+HCV-Egy-Data.csv filter=lfs diff=lfs merge=lfs -text
